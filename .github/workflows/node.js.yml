@@ -30,3 +30,4 @@ jobs:
     - run: npm run build --if-present
     - run: npm init -y
     - run: npm install express
+    - run: node index.js
